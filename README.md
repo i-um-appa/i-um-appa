@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 map_img = plt.imread('map.png')
 
-save_path = '/Users/brad/Library/Application Support/Steam/userdata/157449224/361280/remote/turmoil_campaign_save.json'
+save_path = 'C:\Program Files (x86)\Steam\userdata\157449224/361280/remote/turmoil_campaign_save.json'
 
 with open(save_path, 'r') as f:
     save_data = json.load(f)
